@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinite Graphics</title>
+    <link rel="shortcut icon" href="/images/shortcut.png" />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link rel="stylesheet" href="./css/mediaquery.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-utilities.css" />
+  </head>
+  <body>
+    <!--  START NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <!-- ms-auto == align right-->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contact us</a>
+            </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" id="main-btn" href="#">Sign up</a>
+              </li> -->
+            <li class="nav-item">
+              <a class="nav-link" id="myCart" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-cart"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                  /></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END OF NAV BAR -->
+
+    <!-- START OF HERO SECTION -->
+    <section class="hero-image d-flex flex-column justify-content-center">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="hero__title">Think printing. Think us!</h1>
+            <p class="hero__subtitle col-md-12">
+              Let us be  your partner for your printing needs on demand and on time!
+            </p>
+            <div class="hero__buttonMain">
+            <button class="hero__button">Log in</button>
+            <button class="hero__button2">Create New Account</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF HERO SECTION -->
+
+    <!-- START OF ABOUT US -->
+    <section id="about" class="about__us">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <span></span>
+            <h1 class="about__title">About Us</h1>
+            <p class="about__sub">
+              We provide professional and high-quality printing solutions,
+              best for individuals, organizations, groups, and companies that require 
+              low volume and fast turnaround time. From single to full-color printing jobs, 
+              you can rely on us to deliver exactly what you require at a low cost and hassle-free. 
+              We will collaborate with you to fully understand your goals and to provide you with 
+              the best possible result using the topmost specifications tailored to your budget. 
+              <br><br>Whatever your digital printing requirements, feel free to call or email us and 
+              we will be more than delighted to discuss what your requirements are in detail. 
+              Our company will assist you in every stage of the project. 
+              Fast turnaround is guaranteed! We will provide you with a free, no-obligation quote.
+            </p>
+          </div>
+          <div id="aboutImg" class="col">
+            <img
+              class="about__img"
+              src="./images/about-img.jpg"
+              alt="About-img"
+              />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- START OF ABOUT US -->
+
+    <!-- START OF OUR PRODUCTS FRAME -->
+    <section id="products" class="our__products">
+      <div class="container">
+        <div id="products__top" class="row">
+          <div class="col-md-6">
+            <span></span>
+            <h1 class="products__title">Our Products</h1>
+            <!-- <div class="col float-lg-end"> -->
+          </div>
+          <div class="col-md-6">
+            <button class="products__button float-md-end align-middle">
+              Shop now
+            </button>
+          </div>
+        </div>
+        <div id="product__cards">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="card text-center">
+                <img
+                  src="./images/prod-1.jpg"
+                  class="card-img-top"
+                  alt="image_1"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Basic-shirt</h1>
+                  <p class="card-text">
+                    Premium, Polo, Hoodie <br />and Sweatshirt
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img
+                  src="./images/prod-2.jpg"
+                  class="card-img-top"
+                  alt="image_2"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Mugs</h1>
+                  <p class="card-text">
+                    11oz colored/white <br />15 oz colored/white
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img
+                  src="./images/prod-3.jpg"
+                  class="card-img-top"
+                  alt="image_3"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Banner</h1>
+                  <p class="card-text">Vinyl banner <br />Retractable banner</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img
+                  src="./images/prod-4.jpg"
+                  class="card-img-top"
+                  alt="image_4"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Canvas</h1>
+                  <p class="card-text">
+                    Sample details <br />for Sample details
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img
+                  src="./images/prod-5.jpg"
+                  class="card-img-top"
+                  alt="image_5"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Posters</h1>
+                  <p class="card-text">
+                    Sample details <br />for Sample details
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img
+                  src="./images/prod-6.jpg"
+                  class="card-img-top"
+                  alt="image_6"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Labels & Stickers</h1>
+                  <p class="card-text">
+                    Food label, Bumper sticker, Car door etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img
+                  src="./images/prod-7.jpg"
+                  class="card-img-top"
+                  alt="image_7"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Car Decals</h1>
+                  <p class="card-text">
+                    Sample details <br />for Sample details
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <img
+                  src="./images/prod-8.jpg"
+                  class="card-img-top"
+                  alt="image_8"
+                />
+                <div class="card-body">
+                  <h1 class="card-title">Magnet</h1>
+                  <p class="card-text">Car magnet, <br />Fridge magnet</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF OUR PRODUCTS FRAME -->
+
+    <!-- START OF SERVICES DIVISION -->
+    <section id="services" class="our__services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <span></span>
+            <h1 class="services__title">Our Services</h1>
+            <!-- <p class="services__subtitle">
+              Our shop major services for all your design needs.
+              Less hassle, less commute. You can also pay inside our website.
+            </p> -->
+            <!-- <div class="col float-lg-end"> -->
+          </div>
+          <div class="col-md-6">
+            <button class="services__button float-md-end align-middle">
+              Custom print
+            </button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col d-flex justify-content-center"> <!-- allow you to center content in a row -->
+            <div id="services__icon" class="card text-center">
+              <div class="elements">
+              <img
+                src="./images/icon1.png"
+                alt="icon1"
+              />
+              <div class="card-body">
+                <h1 class="card-title">Online Services</h1>
+                <p class="card-text">
+                  Customers can upload and 
+                  customized there desired product
+                  inside the website.
+                </p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm d-flex justify-content-center">
+            <div id="services__icon" class="card text-center">
+              <div id="customShirt" class="elements">
+              <img 
+                src="./images/icon2.png"
+                alt="icon1"
+              />
+              <div class="card-body">
+                <h1 class="card-title">Custom Shirts</h1>
+                <p class="card-text">
+                  Customized Design shirts 
+                  that you can order<br>and pay online.
+                </p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm d-flex justify-content-center">
+            <div id="services__icon" class="card text-center">
+              <div class="elements">
+              <img
+                src="./images/icon3.png"
+                alt="icon1"
+              />
+              <div class="card-body">
+                <h1 class="card-title">Digital Printing</h1>
+                <p class="card-text">
+                  We are printing any kinds of 
+                  printable materials like tarpaulin,
+                  invitations, signs and more.
+                </p>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF SERVICES DIVISION -->
+
+    <!-- START OF CONTACT US -->
+    <section id="contacts" class="contact__us">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+          <span></span>
+          <h1 class="contacts__title">Contact Us</h1>
+         </div>
+
+         <div class="row">
+         <div id="contact__details" class="col justify-content-center">
+           <img src="/images/phone.png" alt="phone">
+           <!-- <p>780-729-4442 / 780-707-1987</p> -->
+           <a href="#">780-729-4442</a>
+           <a href="#">780-729-4442</a>
+         </div>
+         <div id="contact__details" class="col justify-content-center">
+          <img src="/images/mail.png" alt="phone">
+          <!-- <p>780-729-4442 / 780-707-1987</p> -->
+          <a href="#">infinitegraphics@yahoo.com</a>
+        </div>
+        <div id="contact__details" class="col justify-content-center">
+          <img src="/images/location.png" alt="phone">
+          <!-- <p>780-729-4442 / 780-707-1987</p> -->
+          <a href="#">8715 221 St. NW Edmonton, AB T5T 7H7</a>
+        </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- END OF CONTACT US -->
+
+    <!-- START OF FOOTER -->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Copyright © 2021 Infinite Graphics. All Rights Reserved.</p>
+          </div>
+          <div id="socials" class="col">
+            <a href=""><img src="/images/fb-icon.png" alt="facebook" class="float-end"></a>
+            <a href=""><img src="/images/ig-icon.png" alt="instagram" class="float-end"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF FOOTER -->
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
