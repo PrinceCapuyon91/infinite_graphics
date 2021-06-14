@@ -46,3 +46,17 @@ body {
   font-weight: 400;
   color: #696969;
 }
+
+@media (max-width: 480px) {
+  .text-center {
+    width: 380px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 376px) {
+  .text-center {
+    width: 300px;
+    margin: auto;
+  }
+}
