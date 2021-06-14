@@ -219,10 +219,6 @@ body {
   transition: var(--transition);
 }
 
-#cover {
-  /* margin-bottom: 100px; */
-}
-
 .products__button:hover {
   background-color: #0b5053;
 }
