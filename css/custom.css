@@ -68,6 +68,15 @@ body {
   width: auto;
 }
 
+#logOut {
+  display: none;
+}
+
+#logOut a {
+  color: #fd6b31 !important;
+  font-weight: 500;
+}
+
 /* ** END OF NAV BAR */
 
 /* ** START OF HERO SECTION */
