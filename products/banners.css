@@ -1,0 +1,116 @@
+/* CSS used here will be applied after bootstrap.css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+#mainContainer {
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+
+#navz img {
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn-success {
+  background-color: #0e5d61 !important;
+  border: none !important;
+}
+
+.right {
+  float: right !important;
+  margin-top: 7px;
+}
+
+.carousel {
+  margin-top: 20px;
+}
+.item .thumb {
+  width: 25%;
+  cursor: pointer;
+  float: left;
+}
+.item .thumb img {
+  width: 100%;
+  margin: 2px;
+}
+.item img {
+  width: 100%;
+}
+
+.titlePage {
+  color: #0e5d61;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.sizesContainer {
+  margin-top: 4rem;
+}
+
+.btnOrientation {
+  background: none;
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #3f3f3f;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.btnOrientation:active {
+  border: 2px solid #0e5d61;
+}
+
+.btnOrientation:hover {
+  border: 2px solid #0e5d61;
+}
+
+.btnSize {
+  background: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #3f3f3f;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
+.btnSize:active {
+  border: 2px solid #0e5d61;
+}
+
+.btnSize:hover {
+  border: 2px solid #0e5d61;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.priceTag h1 {
+  color: #0e5d61;
+}
+
+.priceButton {
+  margin-top: 2rem;
+}
+
+#footer {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+#footer > .container p {
+  font-weight: 100;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 12px;
+}
