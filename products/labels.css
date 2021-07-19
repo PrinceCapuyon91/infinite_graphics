@@ -3,7 +3,7 @@
 
 #mainContainer {
   margin-top: 7rem;
-  margin-bottom: 3rem;
+  margin-bottom: 7rem;
 }
 
 #navz img {
@@ -52,6 +52,27 @@
   margin-top: 4rem;
 }
 
+.btnLabel {
+  background: none;
+  width: 130px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #3f3f3f;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.btnLabel:focus {
+  border: 2px solid #0e5d61;
+}
+
+.btnLabel:hover {
+  border: 2px solid #0e5d61;
+}
+
 .btnOrientation {
   background: none;
   width: 200px;
@@ -85,13 +106,19 @@
   font-size: 11px;
 }
 
-.btnSize:active {
+.btnSize:focus {
   border: 2px solid #0e5d61;
 }
 
 .btnSize:hover {
   border: 2px solid #0e5d61;
 }
+
+/* !! FOR SIZES */
+#hidden {
+  display: none;
+}
+/* !! FOR SIZES */
 
 .quantity {
   display: flex;
@@ -110,6 +137,10 @@
 #footer {
   background-color: #212529;
   color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 #footer > .container p {

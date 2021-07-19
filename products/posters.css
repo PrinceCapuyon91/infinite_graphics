@@ -60,7 +60,7 @@
   font-size: 12px;
 }
 
-.btnOrientation:active {
+.btnOrientation:focus {
   border: 2px solid #0e5d61;
 }
 
@@ -81,7 +81,7 @@
   font-size: 11px;
 }
 
-.btnSize:active {
+.btnSize:focus {
   border: 2px solid #0e5d61;
 }
 

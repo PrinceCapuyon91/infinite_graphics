@@ -14,6 +14,7 @@
       href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <link rel="stylesheet" href="labels.css" />
   </head>
   <body>
@@ -156,53 +157,47 @@
         <div class="col-sm-6">
           <h1 class="titlePage">LABELS & STICKERS</h1>
           <h3>Shapes</h3>
-          <div>
+          <div id="shapes">
             <!--!! ORIENTATION -->
-            <button type="button" class="btnSize">Circle</button>
-            <button type="button" class="btnSize">Oval</button>
-            <button type="button" class="btnSize">Rectangle</button>
-            <button type="button" class="btnSize">Square</button>
-          </div>
+            <button type="button" class="buttonControl btnLabel" data-show=".circleSquare">Circle & Square</button>
+            <button type="button" class="buttonControl btnLabel" data-show=".ovalRectangle">Oval & Rectangle</button>
+
+            <!-- <button type="button" class="buttonControl btnLabel" data-show=".circleSquare">Circle</button>
+            <button type="button" class="buttonControl btnLabel" data-show=".ovalRectangle">Oval</button>
+            <button type="button" class="buttonControl btnLabel" data-show=".circleSquare">Square</button>
+            <button type="button" class="buttonControl btnLabel" data-show=".ovalRectangle">Rectangle</button> -->
 
           <div class="sizesContainer">
-            <h3>Size</h3>
-            <div>
-              <!--!! Sizes -->
-              <button type="button" class="btnSize">1x2</button>
-              <button type="button" class="btnSize">1x3</button>
-              <button type="button" class="btnSize">2x2</button>
-              <button type="button" class="btnSize">2x3</button>
-              <button type="button" class="btnSize">2x4</button>
+            <!--!! START Sizes -->
+            <div class="project circleSquare">
+              <h3>Size</h3>
+              <!--!! Size for Circle & Square -->
+              <button type="button" class="btnLabel">1x1</button>
+              <button type="button" class="btnLabel">1.5x1.5</button>
+              <button type="button" class="btnLabel">2x2</button>
+              <button type="button" class="btnLabel">2.5x2.5</button>
+              <button type="button" class="btnLabel">3x3</button>
 
-              <button type="button" class="btnSize">2x5</button>
-              <button type="button" class="btnSize">3x3</button>
-              <button type="button" class="btnSize">3x4</button>
-              <button type="button" class="btnSize">3x5</button>
-              <button type="button" class="btnSize">3x6</button>
+              <button type="button" class="btnLabel">3.5x3.5</button>
+              <button type="button" class="btnLabel">4x4</button>
+              <button type="button" class="btnLabel">5x5</button>
+            </div>
 
-              <button type="button" class="btnSize">3x7</button>
-              <button type="button" class="btnSize">3x8</button>
-              <button type="button" class="btnSize">4x4</button>
-              <button type="button" class="btnSize">4x5</button>
-              <button type="button" class="btnSize">4x6</button>
+            <div id="hidden" class="project ovalRectangle">
+              <h3>Size</h3>
+              <!--!! Size for Oval & Rectangle  -->
+              <button type="button" class="btnLabel">2x1</button>
+              <button type="button" class="btnLabel">3x1</button>
+              <button type="button" class="btnLabel">3x2</button>
+              <button type="button" class="btnLabel">3.25x2</button>
+              <button type="button" class="btnLabel">3.5x2</button>
 
-              <button type="button" class="btnSize">4x7</button>
-              <button type="button" class="btnSize">4x8</button>
-              <button type="button" class="btnSize">4x9</button>
-              <button type="button" class="btnSize">4x10</button>
-              <button type="button" class="btnSize">4x11</button>
+              <button type="button" class="btnLabel">4x2</button>
+              <button type="button" class="btnLabel">4x3</button>
+              <button type="button" class="btnLabel">5x3</button>
             </div>
           </div>
-
-          <div>
-            <h3>Hemming</h3>
-            <div>
-              <!--!! HEMMING -->
-              <button type="button" class="btnSize">None</button>
-              <button type="button" class="btnSize">Top&Bottom</button>
-              <button type="button" class="btnSize">All sides</button>
-            </div>
-          </div>
+          <!--!! END Sizes -->
 
           <div class="quantity">
             <div class="btn-group dropup">
@@ -222,12 +217,12 @@
                 <li><a href="#">100</a></li>
                 <li><a href="#">250</a></li>
                 <li><a href="#">500</a></li>
-                <li><a href="#">1K</a></li>
-                <li><a href="#">1.5K</a></li>
-                <li><a href="#">2K</a></li>
-                <li><a href="#">3K</a></li>
-                <li><a href="#">5K</a></li>
-                <li><a href="#">10K</a></li>
+                <li><a href="#">1000</a></li>
+                <li><a href="#">1500</a></li>
+                <li><a href="#">2000</a></li>
+                <li><a href="#">3000</a></li>
+                <li><a href="#">5000</a></li>
+                <li><a href="#">10000</a></li>
               </ul>
             </div>
           </div>
@@ -250,14 +245,14 @@
     <!-- /container -->
 
     <!--!! FOOTER -->
-    <footer id="footer">
+    <footer class="footer-fixed-bottom" id="footer">
       <div class="container">
         <p class="m-0 text-center">
           Copyright &copy; 2021 Infinite Graphics. All Rights Reserved.
         </p>
       </div>
     </footer>
-
+    <script src="/js/labels.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
   </body>
