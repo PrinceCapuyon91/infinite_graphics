@@ -159,28 +159,28 @@
           <h3>Shapes</h3>
           <div id="shapes">
             <!--!! ORIENTATION -->
-            <button type="button" class="buttonControl btnLabel" data-show=".circleSquare">Circle & Square</button>
-            <button type="button" class="buttonControl btnLabel" data-show=".ovalRectangle">Oval & Rectangle</button>
+            <!-- <button type="button" class="buttonControl btnLabel" data-show=".circleSquare">Circle & Square</button>
+            <button type="button" class="buttonControl btnLabel" data-show=".ovalRectangle">Oval & Rectangle</button> -->
 
-            <!-- <button type="button" class="buttonControl btnLabel" data-show=".circleSquare">Circle</button>
+            <button type="button" class="buttonControl btnLabel" data-show=".circleSquare">Circle</button>
             <button type="button" class="buttonControl btnLabel" data-show=".ovalRectangle">Oval</button>
             <button type="button" class="buttonControl btnLabel" data-show=".circleSquare">Square</button>
-            <button type="button" class="buttonControl btnLabel" data-show=".ovalRectangle">Rectangle</button> -->
+            <button type="button" class="buttonControl btnLabel" data-show=".ovalRectangle">Rectangle</button>
 
           <div class="sizesContainer">
             <!--!! START Sizes -->
             <div class="project circleSquare">
               <h3>Size</h3>
               <!--!! Size for Circle & Square -->
-              <button type="button" class="btnLabel">1x1</button>
-              <button type="button" class="btnLabel">1.5x1.5</button>
-              <button type="button" class="btnLabel">2x2</button>
-              <button type="button" class="btnLabel">2.5x2.5</button>
-              <button type="button" class="btnLabel">3x3</button>
+              <button id="button1" type="button" class="btnLabel">1x1</button>
+              <button id="button2" type="button" class="btnLabel">1.5x1.5</button>
+              <button id="button3" type="button" class="btnLabel">2x2</button>
+              <button id="button4" type="button" class="btnLabel">2.5x2.5</button>
+              <button id="button5" type="button" class="btnLabel">3x3</button>
 
-              <button type="button" class="btnLabel">3.5x3.5</button>
-              <button type="button" class="btnLabel">4x4</button>
-              <button type="button" class="btnLabel">5x5</button>
+              <button id="button6" type="button" class="btnLabel">3.5x3.5</button>
+              <button id="button7" type="button" class="btnLabel">4x4</button>
+              <button id="button8" type="button" class="btnLabel">5x5</button>
             </div>
 
             <div id="hidden" class="project ovalRectangle">
@@ -213,7 +213,7 @@
                 <span class="sr-only">Toggle Dropdown</span>
               </button>
               <ul class="dropdown-menu">
-                <li><a href="#">50</a></li>
+                <li><a id="buttonPrice" href="#">50</a></li>
                 <li><a href="#">100</a></li>
                 <li><a href="#">250</a></li>
                 <li><a href="#">500</a></li>
@@ -228,7 +228,8 @@
           </div>
 
           <div class="priceTag">
-            <h1>Price $100.43</h1>
+            <h1>Price $</h1>
+            <h1 id="price">12.00</h1>
           </div>
 
           <div class="priceButton">

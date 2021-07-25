@@ -63,6 +63,7 @@
   margin-right: 5px;
   margin-bottom: 10px;
   font-size: 12px;
+  font-weight: 600;
 }
 
 .btnLabel:focus {
@@ -113,12 +114,6 @@
 .btnSize:hover {
   border: 2px solid #0e5d61;
 }
-
-/* !! FOR SIZES */
-#hidden {
-  display: none;
-}
-/* !! FOR SIZES */
 
 .quantity {
   display: flex;
